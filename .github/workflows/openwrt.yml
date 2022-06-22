@@ -39,7 +39,7 @@ jobs:
       - name: Checkout OpenWrt
         uses: actions/checkout@v3
         with:
-          repository: https://github.com/coolsnowwolf/lede
+          repository: coolsnowwolf/lede
           path: openwrt
 
       - name: Update Feeds
